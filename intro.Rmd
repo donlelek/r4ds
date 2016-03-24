@@ -1,12 +1,6 @@
----
-title: Introduction
-layout: default
----
-
 # Introduction
 
 ```{r setup-intro, include = FALSE}
-source("common.R")
 install.packages <- function(...) invisible()
 ```
 
@@ -134,7 +128,7 @@ You'll also need to install some R packages. An R _package_ is a collection of f
 
 ```{r}
 pkgs <- c(
-  "bookdown", "broom", "dplyr", "ggplot2", "jpeg", "jsonlite", 
+  "broom", "dplyr", "ggplot2", "jpeg", "jsonlite", 
   "knitr", "microbenchmark", "png", "pryr", "purrr", "readr", "stringr", 
   "tidyr"
 )

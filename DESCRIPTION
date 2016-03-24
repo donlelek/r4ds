@@ -19,6 +19,7 @@ Imports:
   jpeg,
   jsonlite,
   Lahman,
+  lubridate,
   knitr,
   maps,
   microbenchmark,
@@ -36,6 +37,5 @@ Remotes:
   hadley/purrr,
   hadley/stringr,
   hadley/ggplot2,
-  hadley/bookdown,
   hadley/nycflights13,
-  yihui/knitr
+  rstudio/bookdown
